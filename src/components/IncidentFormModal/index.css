@@ -1,0 +1,119 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.header{
+  text-align: left;
+}
+.modal-content {
+  background: white;
+  border-radius: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 50%;
+    position: relative;
+
+}
+
+
+.ReporterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-bottom: 1rem;
+}
+
+.labelStyle {
+  font-weight: 600;
+  margin-bottom: 4px;
+  text-align: left;
+}
+.inputStyle{
+   width: 100%;
+   padding: 5px;
+   border-radius: 5px;
+   border: 1px solid grey;
+   outline: none;
+}
+.dropDownContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; 
+  justify-content: space-between;
+  width: 101.5%;
+  margin-bottom: 1rem;
+}
+
+.inputStyle2{
+   width: 45%;
+   padding: 5px;
+   border-radius: 5px;
+   border: 1px solid grey;
+   outline: none;
+}
+
+.MapContainer{
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.MapRightContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+#description{
+  width: 98.5%;
+  height: 5rem;
+  outline: none;
+  border: 1px solid grey;
+  padding: 8px;
+  border-radius: 5px;
+}
+.buttonContainer{
+    width: 101%;
+margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap:40px;
+}
+.submitButton{
+  padding: 5px;
+  width: 5rem;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(50, 50, 174);
+}
+.cancelButton{
+border: 1px solid rgb(50, 50, 174);
+  padding: 5px;
+  width: 5rem;
+  color: rgb(50, 50, 174);
+  border-radius: 5px;
+  background-color: white;
+}
+.cross {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.Toastify__toast-container {
+  z-index: 9999 !important;
+}

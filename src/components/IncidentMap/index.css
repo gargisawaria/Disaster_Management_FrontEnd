@@ -1,0 +1,21 @@
+.pulsing-marker {
+  animation: pulse 1.5s infinite;
+  filter: drop-shadow(0 0 6px red);
+  display: inline-block;
+  transform-origin: center;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 6px red);
+  }
+  50% {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 18px red);
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 6px red);
+  }
+}

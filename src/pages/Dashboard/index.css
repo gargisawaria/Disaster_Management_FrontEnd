@@ -1,0 +1,71 @@
+.home-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+    transition: margin-right 0.3s ease;
+
+}
+
+
+.home-page.shifted {
+  margin-right: 350px; /* same as sidebar width */
+}
+
+
+.Add-icon {
+  background-color: rgb(50, 50, 174);
+  color: white;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  transition: transform 0.2s ease;
+  z-index: 1000;
+}
+
+.Add-icon:hover {
+  transform: scale(1.1);
+}
+
+.tableContainer{
+    margin-bottom: 2rem;
+}
+.bottomHeader{
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.ag-start-header {
+  display: flex;
+  justify-content: flex-start; /* Aligns content to the start (left) */
+  align-items: center;
+  text-align: left;
+}
+.ag-start-cell {
+  text-align: left;
+  padding-left: 10px;
+   cursor: pointer;
+}
+.ag-start-cell:focus,
+.ag-start-cell:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.filter-icon {
+  color: rgb(50, 50, 174);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.filter-icon:hover {
+  transform: scale(1.1);
+}

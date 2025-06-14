@@ -1,0 +1,81 @@
+.sidebar {
+  position: fixed;
+  top: 78px;
+  right: -350px;
+  width: 300px;
+  height: 100vh;
+  background-color: white;
+box-shadow: -6px 0 16px rgba(50, 50, 174, 0.15), 
+            -3px 0 6px rgba(50, 50, 174, 0.1);
+
+                transition: right 0.3s ease-in-out;
+  z-index: 999;
+  padding: 20px;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(50, 50, 174);
+}
+
+.sidebar-content {
+  margin-top: 20px;
+}
+.sidebar.sticky {
+  top: 0;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.filter-section h4 {
+  margin-bottom: 10px;
+  color: rgb(50, 50, 174);
+}
+
+.filter-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.apply-btn,
+.clear-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.apply-btn {
+  background-color: rgb(50, 50, 174);
+  color: white;
+}
+
+.clear-btn {
+  background-color: #ccc;
+  color: black;
+}
+

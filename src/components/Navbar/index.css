@@ -1,0 +1,44 @@
+.navbar {
+  color: rgb(50, 50, 174);
+  padding: 1px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+   box-shadow: 0 6px 16px rgba(50, 50, 174, 0.15), 
+              0 3px 6px rgba(50, 50, 174, 0.1);
+}
+
+
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links li a {
+  color:rgb(50, 50, 174);
+  text-decoration: none;
+}
+
+.nav-links li.active a {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+.myName{
+    background-color: rgb(196, 196, 251);
+    padding: 10px;
+    border-radius: 20px;
+}
