@@ -117,7 +117,6 @@ dispatch(addIncident(newIncident));
             id="reporterName"
             type="text"
             placeholder="Enter Reporter Name"
-            required
             value={reporterName}
             onChange={(e) => setReporterName(e.target.value)}
           />
@@ -127,7 +126,6 @@ dispatch(addIncident(newIncident));
           <select
             className="inputStyle2"
             id="incidentType"
-            required
             value={incidentTypeId}
             onChange={(e) => setIncidentTypeId(e.target.value)}
           >
@@ -142,7 +140,6 @@ dispatch(addIncident(newIncident));
           <select
             className="inputStyle2"
             id="severity"
-            required
             value={severityId}
             onChange={(e) => setSeverityId(e.target.value)}
           >
@@ -175,7 +172,6 @@ dispatch(addIncident(newIncident));
           <textarea
             id="description"
             placeholder="Description about incident..."
-            required
             value={description}
             onChange={(e) => setDescription(e.target.value)}
           ></textarea>
